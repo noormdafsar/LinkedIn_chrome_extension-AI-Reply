@@ -93,7 +93,15 @@ export const PopUpModal: React.FC<ModalProps> = ({ insertIcon, generateIcon, reg
     closeModal(MouseEvent);
   
     return (
-      <div style={modalStyle} id="custom-modal">
+      <div style={{
+        position: 'fixed',
+        inset: 0,
+        background: 'rgba(0, 0, 0, 0.5)',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        zIndex: 1000
+      }} id="custom-modal">
         <div style={contentStyle} id="model-content">
           {/* messages */}
           <div id="messages" style={{  maxHeight: '200px', overflowY: 'auto', padding: '12px', display: 'flex', flexDirection: 'column' }}>
@@ -149,5 +157,5 @@ export const PopUpModal: React.FC<ModalProps> = ({ insertIcon, generateIcon, reg
           </div>
         </div>
       </div>
-    );
-  };
+    ); 
+};
