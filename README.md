@@ -1,6 +1,6 @@
 #**LinkedIn AI Reply DEMO VIDEO**
 
-Uploading Demo video LinkedIn chrome extension.mp4…
+[Uploading Demo video LinkedIn chrome extension.mp4…](https://github.com/user-attachments/assets/b8bde5c3-0a25-456d-ace6-962ede147112)
 
 #**How To Start**
 
