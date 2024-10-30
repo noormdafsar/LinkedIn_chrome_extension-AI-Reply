@@ -10,7 +10,7 @@
 
 Then open chorme
 
-Go to Manage Extension anc click on Load unpacked
+Go to Manage Extension and click on Load unpacked
 
 go to project dir and choose these folder *\LinkedIn-Extension-\.output\chrome-mv3
 
